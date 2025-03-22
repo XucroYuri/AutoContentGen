@@ -1,0 +1,8 @@
+# api_keys.py.example
+# 复制此文件为 api_keys.py 并填入您的实际 API 密钥
+# 请勿将 api_keys.py 上传至 GitHub
+OPENAI_API_KEY = 'your_openai_api_key'
+BAIDU_API_KEY = 'your_baidu_api_key'
+STABLE_DIFFUSION_API_KEY = 'your_stable_diffusion_api_key'
+RUNWAYML_API_KEY = 'your_runwayml_api_key'
+TOPAZ_API_KEY = 'your_topaz_api_key'
