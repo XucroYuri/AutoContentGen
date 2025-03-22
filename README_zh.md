@@ -1,5 +1,7 @@
 # AutoContentGen
 
+[English](https://github.com/XucroYuri/AutoContentGen/edit/main/README.md) | 简体中文
+
 一个AI驱动的内容生成工具，用于分析趋势、生成图像和视频，并发布到社交媒体或存储空间。
 
 ## 概述
