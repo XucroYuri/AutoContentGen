@@ -1,6 +1,10 @@
 # AutoContentGen
 
-AI-driven content generation tool for analyzing trends, generating images, videos, and publishing to social media.
+An AI-driven content generation tool for analyzing trends, generating images and videos, and publishing to social media or storage.
+
+## Overview
+
+This is the **initial version** of AutoContentGen, designed to automate content creation using AI APIs. We welcome developers to contribute by suggesting improvements, submitting code modifications, or creating new branches with enhanced capabilities.
 
 ## Installation
 
@@ -25,22 +29,35 @@ AI-driven content generation tool for analyzing trends, generating images, video
     - Replace placeholder keys with your actual API keys.
         
 
-## Usage
+Usage
 
 Run the program:
 
-bash
+   bash
+   
+   ```bash
+   python main.py
+   ```
 
-```bash
-python main.py
-```
+The tool runs daily at 8 AM, generating content based on trends and publishing it automatically.
 
-The program runs automatically at 8 AM daily, generating and publishing content based on trends.
+## Contributing
+
+This is an initial release, and we encourage you to:
+
+- Suggest improvements via GitHub Issues.
+    
+- Submit code changes via Pull Requests.
+    
+- Fork the repository and develop new branches with better features.
+    
+
+See CONTRIBUTING.md for details on how to contribute.
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contributing
+## Contact
 
-Feel free to submit issues or pull requests on GitHub.
+For questions, reach out via GitHub Issues.
