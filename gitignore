@@ -1,2 +1,6 @@
 api_keys.py
 data/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
