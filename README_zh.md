@@ -54,7 +54,7 @@ python main.py
 - Fork 仓库并开发具有更好功能的新分支。
     
 
-详情请见** CONTRIBUTING.md**
+详情请见： CONTRIBUTING.md
 
 ## 许可证
 
