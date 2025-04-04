@@ -1,14 +1,29 @@
 # AutoContentGen
 
-English | [简体中文](https://github.com/XucroYuri/AutoContentGen/edit/main/README_zh.md)
+自动内容生成工具
 
-An AI-driven content generation tool for analyzing trends, generating images and videos, and publishing to social media or storage.
+English | [简体中文](./README_zh.md)
 
-## Overview
+An intelligent automated content generation toolkit supporting multi-platform content creation and publishing.
 
-This is the **initial version** of AutoContentGen, designed to automate content creation using AI APIs. We welcome developers to contribute by suggesting improvements, submitting code modifications, or creating new branches with enhanced capabilities.
+## Features
 
-## Installation
+- 🤖 AI-Driven Content Generation
+- 📊 Smart Trend Analysis
+- 🎨 Automated Image & Video Creation
+- 📱 Multi-Platform Publishing
+- 📈 Analytics & Tracking
+
+## 项目结构
+
+```
+src/
+├── core/       # 核心功能模块
+├── utils/      # 工具函数
+└── config/     # 配置文件
+```
+
+## Quick Start
 
 1. Clone the repository:
    ```bash
@@ -17,49 +32,38 @@ This is the **initial version** of AutoContentGen, designed to automate content 
    ```
 
 2. Install dependencies:
-    
-    bash
-    
-    ```bash
-    pip install -r requirements.txt
-    ```
-    
-3. Configure API keys:
-    
-    - Copy api_keys.py.example to api_keys.py.
-        
-    - Replace placeholder keys with your actual API keys.
-        
-
-Usage
-
-Run the program:
-
-   bash
-   
    ```bash
-   python main.py
+   pip install -r requirements.txt
    ```
 
-The tool runs daily at 8 AM, generating content based on trends and publishing it automatically.
+## Configuration
+
+1. Copy the config template:
+   ```bash
+   cp config.example.yml config.yml
+   ```
+2. Fill in your configuration in config.yml
+
+## 使用方法
+
+```python
+from src.core.generator import ContentGenerator
+
+generator = ContentGenerator()
+content = generator.generate_content()
+print(content)
+```
+
+## Roadmap
+
+- [ ] Support for more AI models
+- [ ] Custom template functionality
+- [ ] Content generation algorithm optimization
 
 ## Contributing
 
-This is an initial release, and we encourage you to:
-
-- Suggest improvements via GitHub Issues.
-    
-- Submit code changes via Pull Requests.
-    
-- Fork the repository and develop new branches with better features.
-    
-
-See CONTRIBUTING.md for details on how to contribute.
+Issues and Pull Requests are welcome!
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-For questions, reach out via GitHub Issues.
+MIT License

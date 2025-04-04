@@ -1,4 +1,12 @@
+fastapi
+uvicorn
 schedule
 requests
 openai
 transformers
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+sqlalchemy
+
+pytest>=7.0.0
